@@ -11,7 +11,7 @@ namespace Tyuiu.NazarovSV.Sprint3.Task1.V2.Test
             int startValue = 1;
             int stopValue = 15;
             var res = ds.GetSumSeries(startValue, stopValue);
-            var next = 1;
+            var next = 0.968;
             Assert.AreEqual(next, res);
         }
     }

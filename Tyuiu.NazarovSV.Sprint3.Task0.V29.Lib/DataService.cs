@@ -9,7 +9,7 @@ namespace Tyuiu.NazarovSV.Sprint3.Task0.V29.Lib
             int i;
             for (i = k; i <= s; i++)
             {
-                res = res + ((Math.Pow(t, 2*k) + 1/(k+1)) * Math.Cos(t));
+                res = res + ((Math.Pow(t, 2*i) + 1/(i+1)) * Math.Cos(t));
             }
             return Math.Round(res, 3);
         }
