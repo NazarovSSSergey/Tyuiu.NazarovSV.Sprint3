@@ -7,9 +7,10 @@ namespace Tyuiu.NazarovSV.Sprint3.Task0.V29
         {
             DataService ds = new DataService();
 
+            double t = 0.5;
             int k = 1;
             int s = 10;
-            double t = 0.5;
+
             Console.WriteLine(ds.GetSumSeries(t, k, s));
         }
     }
