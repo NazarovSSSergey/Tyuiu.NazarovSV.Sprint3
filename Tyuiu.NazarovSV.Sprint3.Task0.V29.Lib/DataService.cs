@@ -3,12 +3,13 @@ namespace Tyuiu.NazarovSV.Sprint3.Task0.V29.Lib
 {
     public class DataService : ISprint3Task0V29
     {
-        public double GetSumSeries(double value, int startValue, int stopValue)
+        public double GetSumSeries(double t, int k, int s)
         {
             double res = 0;
-            for (int i = startValue; i <= stopValue; i++)
+            int i;
+            for (i = k; i <= s; i++)
             {
-                res = res + ((Math.Pow(value, 2 * startValue) + (1 / (startValue + 1))) * Math.Cos(value));
+                res = res + (Math.Cos(t) * (Math.Pow(t, 2*i) + (1/(i+1))));
             }
             return Math.Round(res, 3);
         }

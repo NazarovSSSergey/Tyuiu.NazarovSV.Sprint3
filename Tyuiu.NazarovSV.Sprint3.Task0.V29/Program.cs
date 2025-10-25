@@ -7,10 +7,10 @@ namespace Tyuiu.NazarovSV.Sprint3.Task0.V29
         {
             DataService ds = new DataService();
 
-            int startValue = 1;
-            int stopValue = 10;
-            double value = 0.5;
-            Console.WriteLine("ada" + ds.GetSumSeries(value, startValue, stopValue));
+            int k = 1;
+            int s = 10;
+            double t = 0.5;
+            Console.WriteLine(ds.GetSumSeries(t, k, s));
         }
     }
 }

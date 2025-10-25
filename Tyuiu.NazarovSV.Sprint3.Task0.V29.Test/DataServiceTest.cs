@@ -8,11 +8,11 @@ namespace Tyuiu.NazarovSV.Sprint3.Task0.V29.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double value = 0.5;
-            int startValue = 1;
-            int stopValue = 10;
-            double res = ds.GetSumSeries(value, startValue, stopValue);
-            double next = 194;
+            double t = 0.5;
+            int k = 1;
+            int s = 10;
+            double res = ds.GetSumSeries(t, k, s);
+            double next = 2.065;
             Assert.AreEqual(res, next);
         }
     }
