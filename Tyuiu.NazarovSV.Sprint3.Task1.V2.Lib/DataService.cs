@@ -6,7 +6,7 @@ namespace Tyuiu.NazarovSV.Sprint3.Task1.V2.Lib
         public double GetSumSeries(int startValue, int stopValue)
         {
             double res = 0;
-            while (startValue < stopValue)
+            while (startValue <= stopValue)
             {
                 res = res + (Math.Sin(startValue) * 0.5);
                 startValue++;
