@@ -20,7 +20,7 @@ namespace Tyuiu.NazarovSV.Sprint3.Task1.V2
             Console.WriteLine("*РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("**************************************************************************");
 
-            Console.WriteLine("Произведение ряда = " + ds.GetSumSeries(startValue, stopValue));
+            Console.WriteLine(" Произведение ряда = " + ds.GetSumSeries(startValue, stopValue));
             Console.ReadKey();
         }
     }
