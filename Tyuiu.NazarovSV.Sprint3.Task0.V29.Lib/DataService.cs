@@ -11,7 +11,7 @@ namespace Tyuiu.NazarovSV.Sprint3.Task0.V29.Lib
             {
                 res += (Math.Pow(t, 2*k) + (1/(k+1)))*Math.Cos(t);
             }
-            return (Math.Round(res, 3) - 0.129);
+            return Math.Round(res, 3);
         }
     }
 }
