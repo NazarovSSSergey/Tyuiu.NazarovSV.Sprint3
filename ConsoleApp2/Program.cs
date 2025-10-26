@@ -4,19 +4,22 @@
     {
         static void Main(string[] args)
         {
+            int count1 = 0;
             int x;
-            double sp = 1;
-            int i = 0;
-            for (x = -2; x <= 2; x++)
+            for (x = 4; x <= 8; x++)
             {
-                if (x == 0)
+                for (int d = 1; d <= x; d++)
                 {
-                    break;
+                    if (x % d == 0)
+                    {
+                        if (d > 4)
+                        {
+                            count1 += d;
+                        }
+                    }
                 }
-                sp = sp * (3 * x - 1);
-                i++;
             }
-            Console.WriteLine(sp);
+            Console.WriteLine(count1);
         }
     }
 }
