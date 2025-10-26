@@ -17,7 +17,7 @@ namespace Tyuiu.NazarovSV.Sprint3.Task7.V26.Lib
                 {
                     valueArray[c] = 0;
                 }
-                if (2 * x - 0.5 != 0)
+                else
                 {
                     valueArray[c] = y;
                 }
