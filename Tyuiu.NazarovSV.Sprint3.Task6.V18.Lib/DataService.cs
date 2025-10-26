@@ -12,7 +12,7 @@ namespace Tyuiu.NazarovSV.Sprint3.Task6.V18.Lib
                 {
                     if (x % k == 0)
                     {
-                        if (x % k < 10)
+                        if (k < 10)
                         {
                             sum += k;
                         }
