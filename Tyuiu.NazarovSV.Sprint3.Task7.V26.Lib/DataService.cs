@@ -15,6 +15,11 @@ namespace Tyuiu.NazarovSV.Sprint3.Task7.V26.Lib
                 y = Math.Round((5 - 3 * x + ((1 + Math.Sin(x)) / (2 * x - 0.5))), 2);
                 valueArray[c] = y;
                 c++;
+                if (2 * x - 0.5 == 0)
+                {
+                    valueArray[c] = 0;
+                    c++;
+                }
             }
             return valueArray;
         }
